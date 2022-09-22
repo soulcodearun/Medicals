@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #login h1{
+        font-size:20px;
+        margin-bottom:12rem;
+    }
+    .register{
+        height:60vh;
+        width:59vh;
+        text-align:center;
+        justify-content: center;
+        display: block;
+        padding-right:85px;
+        /* border: 2px solid rgb(82, 15, 15); */
+        padding-top:50px;
+        margin:auto;
+    }
+    
+    .register h1 {
+        margin-left:80px;
+        color:rgb(138, 91, 91);
+        font-size:30px;
+        justify-content: center;
+      
+      } 
+      .form {
+        position:absolute;
+        background-color:#c3c3c3;
+        padding-left:20px ;
+        border: 2px solid black;
+        border-radius: 20px;
+        display: block;  
+        color:rgb(22, 19, 19); 
+        padding-top:30px;
+        font-size:16px;
+        font-style:bold;
+        justify-items: center; 
+        align-items: center;
+      }
+      #in1{
+        padding:5px;
+        border-radius: 10px;
+        border:1px solid black;
+      }
+      #in2{
+        padding:5px;
+        border-radius: 10px;
+        border:1px solid black;
+      }
+      #in3{
+        padding:5px;
+        border-radius: 10px;
+        border:1px solid black;
+      }
+    
+      #reset{
+        
+        height:20px;
+        padding:10px;
+        width:400px;
+        justify-content: center;
+    }
+    #reset :hover{
+        color:rgb(233, 213, 204);
+        background-color: rgb(65, 61, 61);
+    }
+    
+    #sub{
+        padding: 2px;
+        width:80px;
+        border-radius: 20px;
+        border:1.5px solid rgb(17, 16, 16);
+        height:20px;
+    }
+    #set{
+        padding: 2px;
+        width: 80px;
+        height:20px;
+        border-radius: 20px;
+        border:1.5px solid black;
+    }
+</style>
+</head>
+<body>
+    <section id="log">
+        <div class="register">
+            <h1>LOGIN FORM</H1>
+            <div class="form" align-item="center"> 
+                NAME: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="in1" type="text"  placeholder="Enter name"><br>
+                CONTACT:&nbsp&nbsp <input id="in2" type="text"  placeholder="Enter No"><br>
+                PASSWORD:<input id="in3" type="text" placeholder="Enter password">
+                <div id="reset">
+                    <button type="button" id="sub" placeholder="submit" onclick="alert('submit successfully')">Submit&nbsp&nbsp&nbsp&nbsp</button>
+                    <button type="reset" id="set" placeholder="reset" on-click="reset">reset</button>
+               </div>
+            </div>
+             
+        </div> 
+ </section> 
+    </body>
+    </html>
